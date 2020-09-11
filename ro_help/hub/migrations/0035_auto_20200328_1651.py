@@ -17,8 +17,8 @@ class Migration(migrations.Migration):
                 (
                     "currency",
                     models.CharField(
-                        choices=[("RON", "RON"), ("EUR", "EUR"), ("USD", "USD")],
-                        default="RON",
+                        choices=[("MDL", "MDL"), ("EUR", "EUR"), ("USD", "USD")],
+                        default="MDL",
                         max_length=10,
                         verbose_name="Currency",
                     ),
