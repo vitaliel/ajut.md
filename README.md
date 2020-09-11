@@ -2,6 +2,8 @@
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4moldova/ajut.md.svg?style=for-the-badge)](https://github.com/code4moldova/ajut.md/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4moldova/ajut.md.svg?style=for-the-badge)](https://github.com/code4moldova/ajut.md/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
+![Build status](https://github.com/code4moldova/ajut.md/workflows/ajut-dev/badge.svg)
+
 This project is the result of the 2019 Civic Labs research. You can view the knowledge base of the project on the [Ro Help](https://civiclabs.ro/ro/solutions/aid-management-hub) Civic Labs page. This project is adjusted for the NGO's needs from Republic of Moldova by Code 4 Moldova.
 
 Check out the [prototype](https://www.figma.com/proto/Fm1mdnskOPnJCX1AWgpR3U/Ajut.md_Web-Design_UI?node-id=1%3A2&viewport=-265%2C-331%2C0.12936504185199738&scaling=scale-down-width) and [admin](https://www.figma.com/proto/Fm1mdnskOPnJCX1AWgpR3U/Ajut.md_Web-Design_UI?node-id=169%3A45&viewport=329%2C197%2C0.29047635197639465&scaling=min-zoom) as well!
