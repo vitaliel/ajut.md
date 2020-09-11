@@ -8,7 +8,7 @@ This project is built by amazing volunteers, just like you, from different timez
 
 ## Feedback
 
-Just have a quick question? Please e-mail us at at contact@code4.ro
+Just have a quick question? Please e-mail us at at contact@code4.md
 
 ## How can I contribute
 
@@ -16,7 +16,7 @@ Just have a quick question? Please e-mail us at at contact@code4.ro
 
 :bug: Think you found a bug? Please check [the list of open issues](https://github.com/code4moldova/ajut.md/issues) to see if your bug has already been reported. If it hasn't please [submit a new issue](https://github.com/code4moldova/ajut.md/issues/new).
 
-:shield: If you find a **security vulnerability**, do not open an issue. Please email contact@code4.ro instead.
+:shield: If you find a **security vulnerability**, do not open an issue. Please email contact@code4.md instead.
 
 Please be as specific as possible when describing the issue. Explain the problem and include additional details to help maintainers reproduce the problem:
 
