@@ -20,4 +20,4 @@ jobs:
         username: ${{ secrets.DEPLOY_SSH_USERNAME }}
         password: ${{ secrets.DEPLOY_SSH_PASSWORD }}
         port: ${{ secrets.DEPLOY_SSH_PORT }}
-        script: ansible-playbook -i 'localhost,' -c local provision/ansible/playbooks/deploy.yml --extra-vars="name='ajut-dev'"
+        script: ansible-playbook -i 'localhost,' -c local /home/deploy/ajut-infra/provision/ansible/playbooks/deploy.yml --extra-vars="name='ajut-dev'"
