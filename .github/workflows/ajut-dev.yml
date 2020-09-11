@@ -3,8 +3,6 @@ name: ajut-dev
 on:
   push:
     branches: [ develop ]
-  pull_request:
-    branches: [ develop ]
 
 jobs:
   deploy-ajut-dev:
@@ -12,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
