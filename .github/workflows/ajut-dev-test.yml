@@ -1,9 +1,8 @@
-name: CI
+name: ajut-dev-test
 
 on:
   pull_request:
-    branches:
-      - master
+    types: [opened,reopened]
 
 jobs:
   tests:
