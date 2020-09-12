@@ -88,7 +88,7 @@ msgstr "Голос успешно зарегистрирован. {} е-мэйл
 
 #: hub/admin.py:515
 msgid "Vote NGO"
-msgstr "Голосуй за НГО"
+msgstr "Голосуй за НПО"
 
 #: hub/admin.py:616
 msgid "CSV file imported"
@@ -213,7 +213,7 @@ msgstr "Первая страница последнего балансного 
 
 #: hub/models.py:247 hub/models.py:452
 msgid "NGO Statute"
-msgstr "Устав НГО"
+msgstr "Устав НПО"
 
 #: hub/models.py:250
 msgid "Accepts mobilpay"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: hub/models.py:341 mobilpay/models.py:13
 msgid "NGO"
-msgstr "НГО"
+msgstr "НПО"
 
 #: hub/models.py:343 hub/models.py:371 hub/templates/ngo/detail.html:291
 msgid "Title"
@@ -285,11 +285,11 @@ msgstr "Закрыт"
 
 #: hub/models.py:363
 msgid "Manage needs"
-msgstr ""
+msgstr "Требует администрирования"
 
 #: hub/models.py:364
 msgid "Manage need"
-msgstr ""
+msgstr "Требует администрирования"
 
 #: hub/models.py:370 hub/models.py:545 hub/templates/ngo/detail.html:290
 msgid "Date"
@@ -317,11 +317,11 @@ msgstr "Прочтен"
 
 #: hub/models.py:397
 msgid "NGO Helper"
-msgstr "Помощник НГО"
+msgstr "Помощник НПО"
 
 #: hub/models.py:398
 msgid "NGO Helpers"
-msgstr "Помощники НГО"
+msgstr "Помощники НПО"
 
 #: hub/models.py:410
 msgid "Organization"
@@ -337,11 +337,11 @@ msgstr "Предыдущие активности"
 
 #: hub/models.py:429
 msgid "Description of past actions, with empahsis on COVID-19 related actions."
-msgstr ""
+msgstr "Описание прошлых действий с акцентом на действия, связанные с COVID-19."
 
 #: hub/models.py:432
 msgid "The types of resources you anticipate you will need."
-msgstr ""
+msgstr "Типы ресурсов, которые, по вашему мнению, вам понадобятся."
 
 #: hub/models.py:437
 msgid "Contact person's phone"
@@ -349,7 +349,7 @@ msgstr "Телефон контактного лица"
 
 #: hub/models.py:438
 msgid "Has contract with Netopia"
-msgstr ""
+msgstr "Имеет контракт с Netopia"
 
 #: hub/models.py:443
 msgid "Link to website or Facebook"
@@ -394,15 +394,15 @@ msgstr ""
 
 #: hub/models.py:533
 msgid "Pending NGOs"
-msgstr ""
+msgstr "Ожидает рассмотрения НПО"
 
 #: hub/models.py:534
 msgid "Pending NGO"
-msgstr ""
+msgstr "Ожидает рассмотрения НПО"
 
 #: hub/models.py:541
 msgid "Vote"
-msgstr ""
+msgstr "Голосовать"
 
 #: hub/models.py:543
 msgid "Motivation"
@@ -492,7 +492,7 @@ msgstr ""
 
 #: hub/templates/about.html:33
 msgid "How RoHelp got started"
-msgstr ""
+msgstr "Как началась работа Ajur.md"
 
 #: hub/templates/about.html:35
 #, python-format
@@ -633,7 +633,7 @@ msgstr[2] ""
 #: hub/templates/admin/search_form.html:22
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr ""
+msgstr "%(full_result_count)s всего"
 
 #: hub/templates/admin/search_form.html:23
 msgid "Show all"
@@ -1052,35 +1052,35 @@ msgstr ""
 
 #: hub/templates/developed-by.html:7
 msgid "A project developed by"
-msgstr ""
+msgstr "Проэкт разработан"
 
 #: hub/templates/developed-by.html:15
 msgid "in partnership with"
-msgstr ""
+msgstr "в партнерстве с"
 
 #: hub/templates/django/forms/widgets/clearable_file_input.html:5
 msgid "Upload document"
-msgstr ""
+msgstr "Загрузить документ"
 
 #: hub/templates/footer.html:10
 msgid "Romanian Government"
-msgstr ""
+msgstr "Молдавское правительсто "
 
 #: hub/templates/footer.html:14
 msgid "Department for Emergency Situations"
-msgstr ""
+msgstr "Департамент аварийной ситуации"
 
 #: hub/templates/footer.html:17
 msgid "Ministry of Health"
-msgstr ""
+msgstr "Министерсто здравоохранения"
 
 #: hub/templates/footer.html:23
 msgid "GitHub repository"
-msgstr ""
+msgstr "GitHub репозитории"
 
 #: hub/templates/footer.html:26
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Условия и кондиции"
 
 #: hub/templates/footer.html:28
 msgid "Cookie policy"
@@ -1088,52 +1088,52 @@ msgstr ""
 
 #: hub/templates/footer.html:31
 msgid "Updates"
-msgstr ""
+msgstr "Обновления"
 
 #: hub/templates/footer.html:41
 msgid ""
 "An independent, non-partisan, non-political, non-govermental organization."
-msgstr ""
+msgstr "Независимая, беспартийная, неполитическая, неправительственная организация."
 
 #: hub/templates/header.html:21
 msgid "About"
-msgstr ""
+msgstr "О нас"
 
 #: hub/templates/header.html:25
 msgid "General rules"
-msgstr ""
+msgstr "Основные правила"
 
 #: hub/templates/header.html:29
 msgid "Contact"
-msgstr ""
+msgstr "Контакты"
 
 #: hub/templates/header.html:34
 msgid "Admin Panel"
-msgstr ""
+msgstr "АДмин панель"
 
 #: hub/templates/header.html:38
 msgid "Logout"
-msgstr ""
+msgstr "Выйти"
 
 #: hub/templates/header.html:42
 msgid "Login"
-msgstr ""
+msgstr "Войти"
 
 #: hub/templates/header.html:45
 msgid "Register"
-msgstr ""
+msgstr "Регистрация"
 
 #: hub/templates/incubated-by.html:7
 msgid "Project developed in the program"
-msgstr ""
+msgstr "Проэкт разработан в программе"
 
 #: hub/templates/ngo/base.html:11
 msgid "Search..."
-msgstr ""
+msgstr "Поиск..."
 
 #: hub/templates/ngo/base.html:27
 msgid "Welcome to RoHelp"
-msgstr ""
+msgstr "Добро пожаловть в Ajut.md"
 
 #: hub/templates/ngo/base.html:30
 msgid ""
@@ -1145,22 +1145,29 @@ msgid ""
 "makes it easy for you to chose the cause you donate to, or the efforts you "
 "contribute to."
 msgstr ""
+"Ajut.md - это полнофункциональная цифровая платформа, которая может быть использована"
+"всеми организациями, которые активно участвуют в предотвращении распространения"
+"Covid-19. Основная цель палтформы - помочь организациям собрать"
+"ресурсы, которые им нужны. Платформа поможет вам найти больше всего"
+"насущные потребности, с которыми сталкиваются организации по всей стране. В результате, это"
+"облегчает вам выбор дела, которому вы жертвуете, или усилий, которые вы делаете"
+"способствовать."
 
 #: hub/templates/ngo/base.html:47
 msgid "I want to help with money"
-msgstr ""
+msgstr "Я хочу помочь деньгами"
 
 #: hub/templates/ngo/base.html:59
 msgid "I want to help with resources"
-msgstr ""
+msgstr "Я хочу помочь ресурсами"
 
 #: hub/templates/ngo/base.html:71
 msgid "I want to volunteer"
-msgstr ""
+msgstr "Я хочу стать волонтером"
 
 #: hub/templates/ngo/base.html:97
 msgid "Red Cross"
-msgstr ""
+msgstr "Крассный крест"
 
 #: hub/templates/ngo/base.html:100
 msgid ""
@@ -1173,15 +1180,22 @@ msgid ""
 "teritoriul național.\n"
 "                            "
 msgstr ""
+"Молдавская национальное общество Красного Креста"
+"представляет собой главный пункт сбора на национальном уровне, как для"
+"финансовые пожертвования на покупку"
+"сантехническое оборудование и материалы, соответственно изделия и материальные товары"
+"которые будут распространяться - в зависимости от потребностей и/или запросов - на"
+"национальная территории.\n"
+""
 
 #: hub/templates/ngo/base.html:109 hub/templates/ngo/detail.html:100
 #: hub/templates/ngo/donate.html:26 hub/templates/ngo/list.html:245
 msgid "Donate"
-msgstr ""
+msgstr "Пожертвование"
 
 #: hub/templates/ngo/detail.html:36
 msgid "donations"
-msgstr ""
+msgstr "Пожертвования"
 
 #: hub/templates/ngo/detail.html:41
 msgid "RON donated"
@@ -1217,7 +1231,7 @@ msgstr "Банк"
 
 #: hub/templates/ngo/detail.html:149
 msgid "Donate resources"
-msgstr ""
+msgstr "Пожертвовать ресурсы"
 
 #: hub/templates/ngo/detail.html:185
 msgid "Join as volunteer"
@@ -1245,19 +1259,19 @@ msgstr "Анономыный"
 
 #: hub/templates/ngo/detail.html:271
 msgid "Reporting"
-msgstr ""
+msgstr "Составление отчетов"
 
 #: hub/templates/ngo/list.html:10
 msgid "NGOs that manage"
-msgstr "НГО, управляющие"
+msgstr "НПО, управляющие"
 
 #: hub/templates/ngo/list.html:12
 msgid "financial aid"
-msgstr ""
+msgstr "финансовая помощь"
 
 #: hub/templates/ngo/list.html:15
 msgid "resource aid"
-msgstr ""
+msgstr "ресурсная помощь"
 
 #: hub/templates/ngo/list.html:17
 msgid "volunteers"
@@ -1282,15 +1296,15 @@ msgstr "Я могу помочь"
 
 #: hub/templates/ngo/list.html:261
 msgid "No results matching query"
-msgstr ""
+msgstr "Нет результатов по запросу"
 
 #: hub/templates/register-ngo.html:7
 msgid "Do you represent a NGO or a Fund and could help?"
-msgstr ""
+msgstr "Вы представляете НПО или фонд и можете помочь?"
 
 #: hub/templates/register-ngo.html:10
 msgid "Sign up to the platform and make it easy for those that want to help."
-msgstr ""
+msgstr "Зарегестрироваться на платформе и упростить задачу тем, кто хочет помочь."
 
 #: hub/templates/register-ngo.html:15
 msgid "I want my organisation to join!"
@@ -1313,11 +1327,14 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
+"Ссылка для сброса пароля недействительна, возможно, потому, что она уже была"
+"использована. Запросите новый сброс пароля."
 
 #: hub/templates/rules.html:18
 msgid ""
 "General Rules for associations and foundations accessing the RoHelp Platform"
 msgstr ""
+"Общие правила для ассоциаций и фондов, имеющих доступ к платформе Ajut.md"
 
 #: hub/templates/rules.html:20
 msgid ""
@@ -1326,6 +1343,9 @@ msgid ""
 "Authority for the Digitalization of Romania and administered by Code for "
 "Romania."
 msgstr ""
+"Ajut.md - это платформа управления, разработанная Code for Moldova"
+"Ассоциация в партнерстве с правительством Молдовы через"
+"Орган по цифровизации Румынии, управляемый Кодексом для Румыния."
 
 #: hub/templates/rules.html:21
 msgid ""
@@ -1511,15 +1531,15 @@ msgstr ""
 
 #: hub/templates/shared/need_form.html:47
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: hub/templates/shared/pagination.html:10
 msgid "first"
-msgstr ""
+msgstr "Первая"
 
 #: hub/templates/shared/pagination.html:12
 msgid "previous"
-msgstr ""
+msgstr "предыдущая"
 
 #: hub/templates/shared/pagination.html:20
 #, python-format
@@ -1528,14 +1548,18 @@ msgid ""
 "            Page %(page)s of %(no_pages)s\n"
 "        "
 msgstr ""
+"\n"
+"            Страница %(page)s из% (no_pages)s\n"
+""
+"        "
 
 #: hub/templates/shared/pagination.html:28
 msgid "next"
-msgstr ""
+msgstr "следующий"
 
 #: hub/templates/shared/pagination.html:30
 msgid "last"
-msgstr ""
+msgstr "последний"
 
 #: hub/templates/terms_and_conditions.html:18
 msgid "Terms and Conditions of use"
@@ -1804,7 +1828,7 @@ msgstr ""
 
 #: hub/templates/terms_and_conditions.html:89
 msgid "8. Trademark and Copyright"
-msgstr ""
+msgstr "8. Товарный знак и авторское право"
 
 #: hub/templates/terms_and_conditions.html:90
 msgid ""
@@ -1816,7 +1840,7 @@ msgstr ""
 
 #: hub/templates/terms_and_conditions.html:92
 msgid "All rights reserved."
-msgstr ""
+msgstr "Все права защищены."
 
 #: hub/templates/terms_and_conditions.html:93
 msgid ""
@@ -1855,10 +1879,12 @@ msgid ""
 "For any further questions regarding the information on this page please "
 "write to rohelp@code4.ro."
 msgstr ""
+"Если у вас возникнут дополнительные вопросы относительно информации на этой странице, пожалуйста"
+"напишите на rohelp@code4.md."
 
 #: hub/templates/terms_and_conditions.html:102
 msgid "10. About Code for Romania"
-msgstr ""
+msgstr "10. О Code for Moldova"
 
 #: hub/templates/terms_and_conditions.html:104
 #, python-format
@@ -1875,13 +1901,15 @@ msgstr ""
 
 #: hub/templates/terms_and_conditions.html:109
 msgid "11. Contact Code for Romania"
-msgstr ""
+msgstr "Контакт Code for Moldova"
 
 #: hub/templates/terms_and_conditions.html:110
 msgid ""
 "For any questions or issues, as well as to ensure your rights in regards to "
 "the processing of personal data by Code for Romania, you can contact us at:"
 msgstr ""
+"По любым вопросам или проблемам, а также для обеспечения ваших прав в отношении"
+"обработки персональных данных Code for Moldova, вы можете связаться с нами по адресу:"
 
 #: hub/templates/terms_and_conditions.html:111
 msgid ""
@@ -1898,7 +1926,7 @@ msgstr "Спасибо тебе за твою помощь!"
 
 #: hub/views.py:259
 msgid "Missing or invalid NGO need."
-msgstr ""
+msgstr "Необходимость в НПО отсутствует или недействительна."
 
 #: hub/views.py:295
 msgid ""
@@ -1937,11 +1965,11 @@ msgstr "Кол-во"
 
 #: mobilpay/models.py:36
 msgid "Payment Orders"
-msgstr ""
+msgstr "Платежные поручения"
 
 #: mobilpay/models.py:37
 msgid "Payment Order"
-msgstr ""
+msgstr "Платежное поручение"
 
 #: mobilpay/models.py:59
 msgid "Payment responses"
@@ -1953,7 +1981,7 @@ msgstr "Платежный ответ"
 
 #: mobilpay/templates/mobilpay/initialize_payment.html:10
 msgid "You are being redirected to payment website"
-msgstr ""
+msgstr "Вы будете перенаправлены на сайт оплаты"
 
 #: mobilpay/templates/mobilpay/response.html:12
 #, python-format
@@ -1964,6 +1992,11 @@ msgid ""
 "de a face bine mai departe.\n"
 "                "
 msgstr ""
+"\n"
+"                    Платеж за %(ngo)s подтвержден! Спасибо"
+"за вашу поддержку в этот период! Любая помощь увеличивает наши возможности"
+"делать добро дальше. \n"
+"                "
 
 #: mobilpay/templates/mobilpay/response.html:17
 #, python-format
@@ -1974,6 +2007,11 @@ msgid ""
 "capacitatea de a face bine mai departe.\n"
 "                    "
 msgstr ""
+"\n"
+"                        Платеж за% (ngo) s обрабатывается."
+"Спасибо за вашу поддержку в это время! Любая помощь увеличивает нашу"
+"способность творить добро дальше.\n"
+"                    "
 
 #: mobilpay/templates/mobilpay/response.html:21
 #, python-format
@@ -1982,7 +2020,12 @@ msgid ""
 "                        Plata pentru %(ngo)s nu a putut fi confirmată. Te "
 "rugăm să încerci din nou. Îți mulțumim pentru sprijin și răbdare.\n"
 "                    "
+
 msgstr ""
+"\n"
+"                        Платеж за %(ngo)s не может быть подтвержден."
+"Пожалуйста, попробуйте еще раз. Спасибо за вашу поддержку и терпение.\n"
+"                    "
 
 #: ro_help/settings/base.py:213
 msgid "COVID-19 RO HELP"
