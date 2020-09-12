@@ -1,4 +1,4 @@
-# Ajut.md • [Live](https://ajut.md/)
+# Ajut.md • [Live](https://www.ajut.md/)
 
 [![GitHub contributors](https://img.shields.io/github/contributors/code4moldova/ajut.md.svg?style=for-the-badge)](https://github.com/code4moldova/ajut.md/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4moldova/ajut.md.svg?style=for-the-badge)](https://github.com/code4moldova/ajut.md/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
@@ -10,7 +10,7 @@ Check out the [prototype](https://www.figma.com/proto/Fm1mdnskOPnJCX1AWgpR3U/Aju
 
 Ajut.md is a platform meant to help NGOs during an emergency situation. The NGOs can ask for donations, resources or volunteers, and users can browse the needs that various NGOs have. Initially prototyped by Code4Romania with an earthquake in mind, this project was pushed at the forefront of Code4Romania [Tech for Social Good](https://tfsg.code4.ro/ro/) development program during the COVID-19 pandemic.
 
-[See the project live](http://dev.ajut.md.ro/)
+[See the project live](https://www.ajut.md/)
 
 Objective: Safe and coherent collection of aid.
 
