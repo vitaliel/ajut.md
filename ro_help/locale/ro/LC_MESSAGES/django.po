@@ -1354,7 +1354,7 @@ msgstr "Despre"
 
 #: hub/templates/header.html:25
 msgid "General rules"
-msgstr "Reguli RoHelp"
+msgstr "Reguli"
 
 #: hub/templates/header.html:29
 msgid "Contact"
@@ -1370,7 +1370,7 @@ msgstr "Deloghează-te"
 
 #: hub/templates/header.html:42
 msgid "Login"
-msgstr "Loghează-te"
+msgstr "Logare"
 
 #: hub/templates/header.html:45
 msgid "Register"
