@@ -38,8 +38,7 @@ class PaymentOrderAdmin(ModelAdminTotals):
     search_fields = ["ngo__name"]
     list_filter = ["ngo", "date", "success"]
     inlines = [PaymentResponseInline]
-    list_totals = [('amount', Sum)]
-
+    list_totals = [("amount", Sum)]
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)
