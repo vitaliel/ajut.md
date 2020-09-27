@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ("date", models.DateTimeField(verbose_name="Date")),
                 ("title", models.CharField(max_length=100, verbose_name="Title")),
                 ("file", models.FileField(blank=True, null=True, upload_to="", verbose_name="Receipt")),
-                ("amount", models.FloatField(verbose_name="Amount spent (RON)")),
+                ("amount", models.FloatField(verbose_name="Amount spent (MDL)")),
                 (
                     "ngo",
                     models.ForeignKey(
