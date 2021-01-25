@@ -6,12 +6,12 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('hub', '0048_auto_20200429_0736'),
+        ("hub", "0048_auto_20200429_0736"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='personalrequest',
-            options={'get_latest_by': 'modified'},
+            name="personalrequest",
+            options={"get_latest_by": "modified"},
         ),
     ]
