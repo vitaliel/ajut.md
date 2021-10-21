@@ -20,7 +20,7 @@ def meta_tags(context):
         "description": _(
             context.get(
                 "description",
-                "Intră pe rohelp.ro și donează exact acolo unde este nevoie! Transparent, ușor, eficient!",
+                "Intră pe ajut.md și donează exact acolo unde este nevoie! Transparent, ușor, eficient!",
             )
         ),
     }

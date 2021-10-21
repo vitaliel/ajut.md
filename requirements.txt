@@ -2,7 +2,8 @@ gevent==21.1.2
 Django==3.1.5
 django-environ==0.4.5
 django-material>=1.6.3,<2.0.0
-django-material-admin>=1.6.44,<2.0.0
+# >=1.8.0,<2.0.0 it supports django 3.2
+django-material-admin==1.7.16
 psycopg2-binary==2.8.6
 git+https://github.com/python-discord/django-crispy-bulma
 django-crispy-forms~=1.9.0
