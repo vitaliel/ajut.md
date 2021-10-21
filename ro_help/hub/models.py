@@ -168,25 +168,25 @@ class VOTE:
 
 
 class CURRENCY:
-    RON = _("RON")
+    MDL = _("MDL")
     EUR = _("EUR")
     USD = _("USD")
 
     @classmethod
     def to_choices(cls):
         return [
-            ("RON", CURRENCY.RON),
+            ("MDL", CURRENCY.MDL),
             ("EUR", CURRENCY.EUR),
             ("USD", CURRENCY.USD),
         ]
 
     @classmethod
     def default(cls):
-        return CURRENCY.RON
+        return CURRENCY.MDL
 
     @classmethod
     def to_list(cls):
-        return [CURRENCY.RON, CURRENCY.EUR, CURRENCY.USD]
+        return [CURRENCY.MDL, CURRENCY.EUR, CURRENCY.USD]
 
 
 class City(models.Model):
@@ -231,7 +231,9 @@ class NGO(TimeStampedModel):
     users = models.ManyToManyField(User, related_name="ngos")
     description = models.TextField(_("Description"))
     contact_name = models.CharField(_("Contact person's name"), max_length=254)
-    email = models.EmailField(_("Email"),)
+    email = models.EmailField(
+        _("Email"),
+    )
     phone = models.CharField(_("Phone"), max_length=30)
     address = models.CharField(_("Address"), max_length=400)
     cif = models.CharField("CIF", max_length=20, null=True, blank=True)
@@ -370,7 +372,7 @@ class NGOReportItem(TimeStampedModel):
     date = models.DateField(_("Date"))
     title = models.CharField(_("Title"), max_length=100)
     file = models.FileField(_("Receipt"), null=True, blank=True)
-    amount = models.FloatField(_("Amount spent (RON)"))
+    amount = models.FloatField(_("Amount spent (MDL)"))
 
     def __str__(self):
         return f"{self.title}: {self.amount}"
@@ -384,7 +386,9 @@ class NGOHelper(TimeStampedModel):
     ngo_need = models.ForeignKey(NGONeed, on_delete=models.CASCADE, related_name="helpers")
 
     name = models.CharField(_("Name"), max_length=254)
-    email = models.EmailField(_("Email"),)
+    email = models.EmailField(
+        _("Email"),
+    )
     message = models.TextField(_("Message"))
     phone = models.CharField(_("Phone"), max_length=30, null=True, blank=True)
 
@@ -401,7 +405,10 @@ class NGOHelper(TimeStampedModel):
 class PersonalRequest(TimeStampedModel):
     ngo = models.ForeignKey(NGO, on_delete=models.CASCADE, null=True, blank=True, related_name="requests")
 
-    name = models.CharField(_("Name"), max_length=254,)
+    name = models.CharField(
+        _("Name"),
+        max_length=254,
+    )
     email = models.EmailField(_("Email"), null=True, blank=True)
     phone = models.CharField(_("Phone"), max_length=15)
     city = models.CharField(_("City"), max_length=100)

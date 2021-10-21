@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ("date", models.DateTimeField(verbose_name="Date")),
                 ("title", models.CharField(max_length=100, verbose_name="Title")),
                 ("file", models.FileField(blank=True, null=True, upload_to="", verbose_name="Receipt")),
-                ("amount", models.FloatField(verbose_name="Amount spent (RON)")),
+                ("amount", models.FloatField(verbose_name="Amount spent (MDL)")),
                 (
                     "ngo",
                     models.ForeignKey(
@@ -35,6 +35,9 @@ class Migration(migrations.Migration):
                     ),
                 ),
             ],
-            options={"verbose_name": "NGO report item", "verbose_name_plural": "NGO report items",},
+            options={
+                "verbose_name": "NGO report item",
+                "verbose_name_plural": "NGO report items",
+            },
         ),
     ]

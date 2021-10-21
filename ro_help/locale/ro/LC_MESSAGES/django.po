@@ -144,7 +144,7 @@ msgid "ABSTENTION"
 msgstr "ABȚINERE"
 
 #: hub/models.py:171
-msgid "RON"
+msgid "MDL"
 msgstr ""
 
 #: hub/models.py:172
@@ -301,8 +301,8 @@ msgid "Receipt"
 msgstr "Document justificativ (factură, chitanță, referat, OP)"
 
 #: hub/models.py:373
-msgid "Amount spent (RON)"
-msgstr "Suma cheltuită (RON)"
+msgid "Amount spent (MDL)"
+msgstr "Suma cheltuită (MDL)"
 
 #: hub/models.py:379 hub/models.py:380
 msgid "Report"
@@ -1443,8 +1443,8 @@ msgid "donations"
 msgstr "donații"
 
 #: hub/templates/ngo/detail.html:41
-msgid "RON donated"
-msgstr "RON donați"
+msgid "MDL donated"
+msgstr "MDL donați"
 
 #: hub/templates/ngo/detail.html:47
 msgid "About the organization"
@@ -1495,8 +1495,8 @@ msgid "Lastname"
 msgstr "Nume"
 
 #: hub/templates/ngo/detail.html:240 hub/templates/ngo/detail.html:292
-msgid "Sum (RON)"
-msgstr "Suma (RON)"
+msgid "Sum (MDL)"
+msgstr "Suma (MDL)"
 
 #: hub/templates/ngo/detail.html:250 hub/templates/ngo/detail.html:256
 msgid "Anonymous"

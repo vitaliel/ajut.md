@@ -139,7 +139,7 @@ msgid "ABSTENTION"
 msgstr ""
 
 #: hub/models.py:171
-msgid "RON"
+msgid "MDL"
 msgstr ""
 
 #: hub/models.py:172
@@ -296,7 +296,7 @@ msgid "Receipt"
 msgstr ""
 
 #: hub/models.py:373
-msgid "Amount spent (RON)"
+msgid "Amount spent (MDL)"
 msgstr ""
 
 #: hub/models.py:379 hub/models.py:380
@@ -1176,7 +1176,7 @@ msgid "donations"
 msgstr ""
 
 #: hub/templates/ngo/detail.html:41
-msgid "RON donated"
+msgid "MDL donated"
 msgstr ""
 
 #: hub/templates/ngo/detail.html:47
@@ -1228,7 +1228,7 @@ msgid "Lastname"
 msgstr ""
 
 #: hub/templates/ngo/detail.html:240 hub/templates/ngo/detail.html:292
-msgid "Sum (RON)"
+msgid "Sum (MDL)"
 msgstr ""
 
 #: hub/templates/ngo/detail.html:250 hub/templates/ngo/detail.html:256

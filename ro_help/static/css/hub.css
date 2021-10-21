@@ -595,3 +595,215 @@ footer {
 .pagination-next.hidden, .pagination-previous.hidden {
     visibility: hidden;
 }
+
+
+/*sidebar*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #fff;
+  font-family: 'montserrat';
+}
+
+.content-wrapper {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  grid-column: 1/13;
+}
+
+section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section ul {
+  margin: 0rem 0 2rem 0;
+}
+
+section ul li {
+  list-style-image: url("../assets/star.png");
+  margin-bottom: 2rem;
+}
+
+section .illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .illustration img {
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  grid-column: 1/13;
+}
+
+aside div h3 {
+  text-align: center;
+  font-size: .9rem;
+  width: 100%;
+  margin-left: 0;
+}
+
+aside div img {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+aside .part-three .media {
+  background-color: gray;
+  width: 100px;
+  height: 80px;
+  margin: 1rem auto;
+}
+
+/*
+ * Media Query
+ */
+
+@media (min-width: 1400px) {
+    .content-wrapper {
+        width: 70vw; 
+    }
+}
+
+@media (min-width: 1600px) {
+  .content-wrapper {
+    width: 70vw;
+    }
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+  section {
+    grid-column: 1/9;
+    }
+}
+
+@media (max-width: 375px) {
+  section h1 {
+    font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+  section ul li {
+    font-size: .8rem;
+    }
+}
+
+@media (min-width: 768px) {
+  section ul li {
+    font-size: 1.2rem;
+    }
+}
+ 
+@media (min-width: 1024px) {
+  section .illustration img {
+    width: 80%; 
+    } 
+}
+
+@media (min-width: 1024px) {
+  aside {
+    grid-column: 9/13;
+    }
+}
+
+@media (min-width: 768px) {
+  aside {
+    margin-top: -1rem;
+    padding: 4.2rem;
+    }
+}
+
+@media (min-width: 900px) {
+  aside {
+    margin-top: 2.3rem;
+    }
+}
+
+
+
+@media (max-width: 766px) {
+  aside div h3 {
+    font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 768px) {
+  aside div h3 {
+    font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 900px) {
+  aside div h3 {
+    font-size: 1.2rem;
+    width: 100%;
+    }
+}
+
+
+@media (max-width: 766px) {
+  aside div img {
+    width: 50%;
+    }
+}
+
+
+@media (max-width: 766px) {
+  aside .part-three .media {
+    width: 300px;
+    height: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+  aside .part-three .media {
+    width: 350px;
+    height: 150px;
+    }
+}
+
+@media (min-width: 900px) {
+  aside .part-three .media {
+    width: 200px;
+    height: 80px;
+    }
+}
+
+@media (min-width: 900px) {
+  main {
+    flex-direction: row;
+    }
+}
