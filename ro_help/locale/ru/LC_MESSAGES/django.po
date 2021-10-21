@@ -140,11 +140,11 @@ msgstr "НЕТ"
 
 #: hub/models.py:151
 msgid "ABSTENTION"
-msgstr ""
+msgstr "ВОЗДЕРЖАТЬСЯ"
 
 #: hub/models.py:171
-msgid "RON"
-msgstr ""
+msgid "MDL"
+msgstr "MDL"
 
 #: hub/models.py:172
 msgid "EUR"
@@ -300,7 +300,7 @@ msgid "Receipt"
 msgstr "Чек"
 
 #: hub/models.py:373
-msgid "Amount spent (RON)"
+msgid "Amount spent (MDL)"
 msgstr "Потрачено кол-во (MDL)"
 
 #: hub/models.py:379 hub/models.py:380
@@ -390,7 +390,7 @@ msgstr "Нет"
 
 #: hub/models.py:472
 msgid "Abstention"
-msgstr ""
+msgstr "Воздержаться"
 
 #: hub/models.py:533
 msgid "Pending NGOs"
@@ -1109,7 +1109,7 @@ msgstr "Контакты"
 
 #: hub/templates/header.html:34
 msgid "Admin Panel"
-msgstr "АДмин панель"
+msgstr "Админ панель"
 
 #: hub/templates/header.html:38
 msgid "Logout"
@@ -1133,7 +1133,7 @@ msgstr "Поиск..."
 
 #: hub/templates/ngo/base.html:27
 msgid "Welcome to RoHelp"
-msgstr "Добро пожаловть в Ajut.md"
+msgstr "Добро пожаловать на Ajut.md"
 
 #: hub/templates/ngo/base.html:30
 msgid ""
@@ -1180,13 +1180,14 @@ msgid ""
 "teritoriul național.\n"
 "                            "
 msgstr ""
-"Молдавская национальное общество Красного Креста"
-"представляет собой главный пункт сбора на национальном уровне, как для"
-"финансовые пожертвования на покупку"
-"сантехническое оборудование и материалы, соответственно изделия и материальные товары"
-"которые будут распространяться - в зависимости от потребностей и/или запросов - на"
+"\n"
+"Молдавская национальное общество Красного Креста "
+"представляет собой главный пункт сбора на национальном уровне, как для "
+"финансовые пожертвования на покупку "
+"сантехническое оборудование и материалы, соответственно изделия и материальные товары "
+"которые будут распространяться - в зависимости от потребностей и/или запросов - на "
 "национальная территории.\n"
-""
+"                            "
 
 #: hub/templates/ngo/base.html:109 hub/templates/ngo/detail.html:100
 #: hub/templates/ngo/donate.html:26 hub/templates/ngo/list.html:245
@@ -1198,7 +1199,7 @@ msgid "donations"
 msgstr "Пожертвования"
 
 #: hub/templates/ngo/detail.html:41
-msgid "RON donated"
+msgid "MDL donated"
 msgstr "MDL пожертвовано"
 
 #: hub/templates/ngo/detail.html:47
@@ -1250,7 +1251,7 @@ msgid "Lastname"
 msgstr "Фамилия"
 
 #: hub/templates/ngo/detail.html:240 hub/templates/ngo/detail.html:292
-msgid "Sum (RON)"
+msgid "Sum (MDL)"
 msgstr "Сумма (MDL)"
 
 #: hub/templates/ngo/detail.html:250 hub/templates/ngo/detail.html:256
@@ -1343,8 +1344,9 @@ msgid ""
 "Authority for the Digitalization of Romania and administered by Code for "
 "Romania."
 msgstr ""
-"Ajut.md - это платформа управления, разработанная Code for Moldova"
-"Ассоциация в партнерстве с правительством Молдовы через"
+"Ajut.md - это платформа управления, разработанная Code for Romania "
+"и поддерживается Code for Moldova. "
+"Ассоциация в партнерстве с правительством Молдовы через "
 "Орган по цифровизации Румынии, управляемый Кодексом для Румыния."
 
 #: hub/templates/rules.html:21
@@ -1549,8 +1551,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            Страница %(page)s из% (no_pages)s\n"
-""
+"            Страница %(page)s из %(no_pages)s\n"
 "        "
 
 #: hub/templates/shared/pagination.html:28
@@ -1879,8 +1880,8 @@ msgid ""
 "For any further questions regarding the information on this page please "
 "write to rohelp@code4.ro."
 msgstr ""
-"Если у вас возникнут дополнительные вопросы относительно информации на этой странице, пожалуйста"
-"напишите на rohelp@code4.md."
+"Если у вас возникнут дополнительные вопросы относительно информации на этой странице, пожалуйста "
+"напишите на ajutmd@code4.md."
 
 #: hub/templates/terms_and_conditions.html:102
 msgid "10. About Code for Romania"
@@ -1922,7 +1923,7 @@ msgstr "ajutmd@code4.md"
 
 #: hub/views.py:225
 msgid "Thank you for your help!"
-msgstr "Спасибо тебе за твою помощь!"
+msgstr "Спасибо вам за вашу помощь!"
 
 #: hub/views.py:259
 msgid "Missing or invalid NGO need."
@@ -1937,7 +1938,7 @@ msgstr ""
 
 #: hub/views.py:316
 msgid "Thank you for your donation!"
-msgstr "Спасибо тебе за твой пожертвование!"
+msgstr "Спасибо вам за ваше пожертвование!"
 
 #: mobilpay/admin.py:24
 msgid "Responses"
@@ -2008,7 +2009,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                        Платеж за% (ngo) s обрабатывается."
+"                        Платеж за %(ngo)s обрабатывается."
 "Спасибо за вашу поддержку в это время! Любая помощь увеличивает нашу"
 "способность творить добро дальше.\n"
 "                    "
