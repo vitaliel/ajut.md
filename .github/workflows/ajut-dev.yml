@@ -2,7 +2,7 @@ name: ajut-dev
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ master ]
 
 jobs:
   deploy-ajut-dev:
