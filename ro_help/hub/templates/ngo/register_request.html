@@ -3,6 +3,7 @@
 {% load i18n %}
 {% load crispy_forms_tags %}
 
+{% block page_class %}register{% endblock %}
 
 {% block kind-kind-filters %}
 {% endblock kind-kind-filters %}
@@ -13,7 +14,7 @@
 {% block left-side-view %}
 <div class="columns">
     <div class="column is-two-third">
-        <div class="container">
+        <div class="container registration-form">
             {% if messages %}
                 <article class="message is-success">
                 <div class="message-body">
@@ -23,6 +24,8 @@
                 </div>
                 </article>
             {% else %}
+                <h1>Înregistrare ONG</h1>
+
                 <form method="post" enctype="multipart/form-data" >
                     {% csrf_token %}
 
@@ -40,13 +43,28 @@
             {% endif %}
         </div>
     </div>
-    <div class="column is-one-third">
-        <div class="is-flex" style="background-color: #ffd738; padding: 2em; justify-content: center; margin-bottom: 1em;">
-            <div class="is-flex" style="flex-direction:column">
-                here should be the sidebar registration
-
+    <div class="column is-one-third" style="padding-top: 2em;">
+        {% if not messages %}
+            <div class="benefits-title">
+                {% trans "Benefits" %}
             </div>
-        </div>
+            <p class="benefits-item">
+                <span class="bullet">✦</span>
+                {% trans "ngo-benefit1" %}
+            </p>
+            <p class="benefits-item">
+                <span class="bullet">✦</span>
+                {% trans "ngo-benefit2" %}
+            </p>
+            <p class="benefits-item">
+                <span class="bullet">✦</span>
+                {% trans "ngo-benefit3" %}
+            </p>
+            <p class="benefits-item">
+                <span class="bullet">✦</span>
+                {% trans "ngo-benefit4" %}
+            </p>
+        {% endif %}
     </div>
 </div>
 
@@ -55,4 +73,3 @@
 {% block right-side-view %}
 
 {% endblock %}
-

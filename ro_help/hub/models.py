@@ -189,6 +189,23 @@ class CURRENCY:
         return [CURRENCY.MDL, CURRENCY.EUR, CURRENCY.USD]
 
 
+class ACTIVITY_TYPE:
+    @classmethod
+    def to_choices(cls):
+        return [
+            (1, _("Charity")),
+            (2, _("Animal Protection")),
+            (3, _("Religious")),
+            (4, _("Youth and children")),
+            (5, _("Nature Protection")),
+            (6, _("Education")),
+            (7, _("Art, Culture and Traditions")),
+            (8, _("Health")),
+            (9, _("Human Rights")),
+            (10, _("Volunteers")),
+        ]
+
+
 class City(models.Model):
     city = models.CharField(_("City"), max_length=100)
     county = models.CharField(_("County"), max_length=50)
@@ -238,6 +255,7 @@ class NGO(TimeStampedModel):
     address = models.CharField(_("Address"), max_length=400)
     cif = models.CharField("CIF", max_length=20, null=True, blank=True)
     cui = models.CharField("CUI", max_length=20, null=True, blank=True)
+    activity_type = models.IntegerField(_("Activity Type"), choices=ACTIVITY_TYPE.to_choices(), null=True, blank=True)
     county = models.CharField(_("County"), choices=COUNTY.to_choices(), max_length=50)
     city = models.CharField(_("City"), max_length=100)
 
@@ -446,7 +464,7 @@ class RegisterNGORequest(TimeStampedModel):
     address = models.CharField(_("Address"), max_length=400)
     city = models.CharField(_("City"), max_length=100)
     county = models.CharField(_("County"), choices=COUNTY.to_choices(), max_length=50)
-
+    activity_type = models.IntegerField(_("Activity Type"), choices=ACTIVITY_TYPE.to_choices(), null=True, blank=True)
     social_link = models.CharField(_("Link to website or Facebook"), max_length=512, null=True, blank=True)
 
     active = models.BooleanField(_("Active"), default=False)
