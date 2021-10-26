@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 12:57+0300\n"
+"POT-Creation-Date: 2021-10-26 10:19+0000\n"
 "PO-Revision-Date: 2020-05-20 12:15+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -107,11 +107,15 @@ msgstr "Pentru a accepta donații prin Mobilpay acest câmp este obligatoriu."
 msgid "To accept money transfer this field is required"
 msgstr "Pentru a accepta transfer în bani, acest câmpt este obligatoriu"
 
-#: hub/forms.py:91
+#: hub/forms.py:54
+msgid "I accept <a href='/en/terms' target='_blank'>terms</a>."
+msgstr "Sunt de acord ca datele introduse să fie procesate de către site-ul ajut.md. Află despre <a href='/ro/terms' target='_blank'>cum se procesează datele</a>."
+
+#: hub/forms.py:92
 msgid "CSV file"
 msgstr "Fișier CSV"
 
-#: hub/forms.py:96
+#: hub/forms.py:97
 msgid "Uploaded file is not a CSV file"
 msgstr "Fișierul încarcat nu este de tip CSV"
 
@@ -1378,26 +1382,30 @@ msgstr "Pot să ajut eu!"
 msgid "No results matching query"
 msgstr "Nu există nici un rezultat"
 
-#: hub/templates/ngo/register_request.html:49
-msgid "Benefits"
-msgstr ""
+#: hub/templates/ngo/register_request.html:42
+msgid "Fields with asterisk are required."
+msgstr "Câmpurile cu asterisc sunt obligatorii"
 
 #: hub/templates/ngo/register_request.html:53
+msgid "Benefits"
+msgstr "Beneficii"
+
+#: hub/templates/ngo/register_request.html:57
 msgid "ngo-benefit1"
 msgstr ""
 "Postează necesitățile organizației și găsește donatori (bani, resurse) sau "
 "voluntari."
 
-#: hub/templates/ngo/register_request.html:57
+#: hub/templates/ngo/register_request.html:61
 msgid "ngo-benefit2"
 msgstr "Coordonarea o facem noi. <b>Nu luăm comisioane.</b>"
 
-#: hub/templates/ngo/register_request.html:61
+#: hub/templates/ngo/register_request.html:65
 msgid "ngo-benefit3"
 msgstr ""
 "Fă parte dintr-o rețea largă de ONG-uri, pe o singură platformă transparentă."
 
-#: hub/templates/ngo/register_request.html:65
+#: hub/templates/ngo/register_request.html:69
 msgid "ngo-benefit4"
 msgstr ""
 "Proiectul este realizat prin efortul voluntarilor și al echipei Code for "

@@ -11,7 +11,7 @@ RUN_CREATE_SUPER_USER=${RUN_CREATE_SUPER_USER:-"no"}
 echo "Checking..."
 python3 manage.py check
 
-django-admin compilemessages
+python3 manage.py compilemessages
 
 if [ "$RUN_MIGRATION" == "yes" ] ; then
   echo "Migrating database"

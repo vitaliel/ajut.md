@@ -11,10 +11,10 @@ start:
 	cd ro_help && python3 manage.py runserver
 
 gen-locale:
-	cd ro_help && django-admin makemessages -a
+	cd ro_help && python3 manage.py makemessages -a
 
 i18n:
-	cd ro_help && django-admin compilemessages
+	cd ro_help && python3 manage.py compilemessages
 
 gen-migration:
 	cd ro_help && python3 manage.py makemigrations

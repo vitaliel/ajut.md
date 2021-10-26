@@ -38,6 +38,10 @@
 
                     {{ form|crispy }}
 
+                    <div class="field label">
+                      <span class="asterisk">*</span> {% trans "Fields with asterisk are required." %}
+                    </div>
+
                     <input class="button is-success" type="submit" value="TRIMITE">
                 </form>
             {% endif %}
