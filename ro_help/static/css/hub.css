@@ -176,16 +176,23 @@ footer {
     text-align: right;
     align-self: flex-end;
     font-size: 18px;
-
+    font-weight: 700;
 }
 
 .donate-title {
-    font-size: 1.75rem;
-    padding-bottom: 1rem;
+    color: #2C2C2C;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 36px;
 }
 
 .container .donate-subtitle {
-    font-size: 1rem;
+    color: #505050;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    width: 510px;
 }
 
 #redcross-banner {
@@ -225,6 +232,79 @@ footer {
 
 #right_sidebar {
     border-top: 1px solid #E5E5E5;
+}
+
+.welcome {
+    background: #C9FF9E;
+    border-radius: 35px;
+    padding: 75px 100px 0 100px;
+}
+
+.welcome-top {
+    display: flex;
+}
+
+.welcome-top .right {
+    padding-left: 130px;
+}
+
+.resource-filters {
+    padding-top: 50px;
+}
+
+.resource-filters .filter {
+    margin-right: 35px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.resource-filters .filter a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 16px 0px;
+    color: #3A6EA5;
+    background-color: #FFFFFF;
+    border: 3px solid #3A6EA5;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resource-filters .filter a svg {
+    align-content: baseline;
+    margin-right: 10px;
+}
+
+.resource-filters .filter a svg.fill {
+    fill: #3A6EA5;
+}
+
+.resource-filters .filter a svg.stroke {
+    stroke: #3A6EA5;
+}
+.resource-filters .filter a:hover {
+    color: #3A6EA5;
+}
+
+.resource-filters .filter.active a {
+    background-color: #3A6EA5;
+    color: white;
+}
+
+.resource-filters .filter.active a svg.fill {
+    fill: white;
+}
+
+.resource-filters .filter.active a svg.stroke {
+    stroke: white;
+}
+
+.resource-filters .filter.active {
+    background-color: white;
+    border-radius: 15px 15px 0 0;
 }
 
 @media screen and (min-width: 769px) {
