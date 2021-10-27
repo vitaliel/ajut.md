@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ajut.md\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 10:19+0000\n"
+"POT-Creation-Date: 2021-10-27 06:08+0000\n"
 "PO-Revision-Date: 2020-09-12 14:33+0300\n"
 "Last-Translator: \n"
 "Language-Team: grigore.fiodorov@gmail.com\n"
@@ -1072,8 +1072,8 @@ msgid ""
 msgstr ""
 "Ajut.md - это полнофункциональная цифровая платформа, которая может быть "
 "использованавсеми организациями, которые активно участвуют в предотвращении "
-"распространенияCovid-19. Основная цель палтформы - помочь организациям "
-"собратьресурсы, которые им нужны. Платформа поможет вам найти больше "
+"распространения Covid-19. Основная цель палтформы - помочь организациям "
+"собрать ресурсы, которые им нужны. Платформа поможет вам найти больше "
 "всегонасущные потребности, с которыми сталкиваются организации по всей "
 "стране. В результате, этооблегчает вам выбор дела, которому вы жертвуете, "
 "или усилий, которые вы делаетеспособствовать."
@@ -1210,8 +1210,18 @@ msgstr "Я могу помочь"
 msgid "No results matching query"
 msgstr "Нет результатов по запросу"
 
+#: hub/templates/ngo/register_request.html:27
+#, fuzzy
+#| msgid "Register"
+msgid "Register NGO"
+msgstr "Регистрация НПО"
+
 #: hub/templates/ngo/register_request.html:42
 msgid "Fields with asterisk are required."
+msgstr ""
+
+#: hub/templates/ngo/register_request.html:45
+msgid "SEND"
 msgstr ""
 
 #: hub/templates/ngo/register_request.html:53
@@ -1265,7 +1275,7 @@ msgid ""
 "used. Please request a new password reset."
 msgstr ""
 "Ссылка для сброса пароля недействительна, возможно, потому, что она уже "
-"былаиспользована. Запросите новый сброс пароля."
+"была использована. Запросите новый сброс пароля."
 
 #: hub/templates/rules.html:18
 msgid ""
@@ -1846,7 +1856,7 @@ msgid ""
 "the processing of personal data by Code for Romania, you can contact us at:"
 msgstr ""
 "По любым вопросам или проблемам, а также для обеспечения ваших прав в "
-"отношенииобработки персональных данных Code for Moldova, вы можете связаться "
+"отношении обработки персональных данных Code for Moldova, вы можете связаться "
 "с нами по адресу:"
 
 #: hub/templates/terms_and_conditions.html:111
@@ -1931,8 +1941,8 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    Платеж за %(ngo)s подтвержден! Спасибоза вашу поддержку "
-"в этот период! Любая помощь увеличивает наши возможностиделать добро "
+"                    Платеж за %(ngo)s подтвержден! Спасибо за вашу поддержку "
+"в этот период! Любая помощь увеличивает наши возможности делать добро "
 "дальше. \n"
 "                "
 

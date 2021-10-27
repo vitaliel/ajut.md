@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 10:19+0000\n"
+"POT-Creation-Date: 2021-10-27 06:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1180,8 +1180,16 @@ msgstr ""
 msgid "No results matching query"
 msgstr ""
 
+#: hub/templates/ngo/register_request.html:27
+msgid "Register NGO"
+msgstr ""
+
 #: hub/templates/ngo/register_request.html:42
 msgid "Fields with asterisk are required."
+msgstr ""
+
+#: hub/templates/ngo/register_request.html:45
+msgid "SEND"
 msgstr ""
 
 #: hub/templates/ngo/register_request.html:53
