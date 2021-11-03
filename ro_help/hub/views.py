@@ -293,7 +293,9 @@ class NGORegisterRequestCreateView(SuccessMessageMixin, InfoContextMixin, Create
     model = RegisterNGORequest
     form_class = NGORegisterRequestForm
     success_message = _(
-        "Thank you for signing up! The form you filled in has reached us. Someone from the RoHelp team will reach out to you as soon as your organization is validated. If you have any further questions, e-mail us at rohelp@code4.ro"
+        "Thank you for signing up! The form you filled in has reached us. Someone from the RoHelp team "
+        "will reach out to you as soon as your organization is validated. If you have any further "
+        "questions, e-mail us at rohelp@code4.ro"
     )
 
     def get_success_url(self):

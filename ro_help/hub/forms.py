@@ -51,22 +51,24 @@ class NGOForm(forms.ModelForm):
 
 class NGORegisterRequestForm(forms.ModelForm):
     captcha = ReCaptchaField(widget=ReCaptchaV3(attrs={"required_score": 0.3, "action": "register"}), label="")
+    terms = forms.BooleanField(required=True, label=_("I accept <a href='/en/terms' target='_blank'>terms</a>."))
 
     class Meta:
         model = models.RegisterNGORequest
         fields = [
             "name",
-            "county",
+            # "county",
             "city",
             "address",
             "email",
+            "social_link",
+            "activity_type",
+            "description",
             "contact_name",
             "contact_phone",
-            "social_link",
-            "description",
-            "past_actions",
-            "resource_types",
-            "has_netopia_contract",
+            # "past_actions",
+            # "resource_types",
+            # "has_netopia_contract",
             "avatar",
             "last_balance_sheet",
             "statute",

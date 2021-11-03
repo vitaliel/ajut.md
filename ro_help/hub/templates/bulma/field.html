@@ -36,11 +36,9 @@
       {% if field|is_checkbox %}
         <label class="checkbox">
           {% crispy_field field %}
-          {{field.label}}
+          {{field.label | safe}}
         </label>
       {% endif %}
-      
-
 
       {% if field|is_file %}
         {% include 'bulma/file.html' %}

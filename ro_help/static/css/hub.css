@@ -1,11 +1,15 @@
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #000;
 }
 
 #main {
     padding: 3em 1.5em;
+}
+
+#main.register {
+    background-color: #FDFFE3;
 }
 
 .h-padded-wrapper {
@@ -455,7 +459,7 @@ footer {
 .search-input, .search-input:hover, .search-input:focus {
     box-shadow: none;
     border: none;
-    font-family: Titillium Web, sans-serif;
+    /*font-family: Titillium Web, sans-serif;*/
     font-style: italic;
     font-weight: normal;
     font-size: 16px;
@@ -490,6 +494,32 @@ footer {
     color: #6B6B6B;
 }
 
+.asterisk {
+    color: red;
+}
+
+.registration-form {
+    width: 510px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 54px 67px 40px 67px;
+}
+
+.registration-form h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.registration-form .label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.registration-form .select {
+    width: 100%;
+}
+
 .register-form {
     width: 100%;
     display: flex;
@@ -503,7 +533,7 @@ footer {
 
 .control {
     font-size: 14px;
-    font-family: Titillium Web, sans-serif;
+    /*font-family: Titillium Web, sans-serif;*/
 }
 
 .register-form label {
@@ -514,7 +544,7 @@ footer {
 
 .register-form input, .register-form select {
     width: 100%;
-    font-family: Titillium Web, sans-serif;
+    /*font-family: Titillium Web, sans-serif;*/
     font-weight: normal;
     font-size: 14px;
 }
@@ -527,13 +557,13 @@ footer {
     border-radius: 6px;
     font-size: 14px;
     padding: 1.5em;
-    font-family: Titillium Web, sans-serif;
+    /*font-family: Titillium Web, sans-serif;*/
     font-weight: normal;
 }
 
 .register-form input[type="file"] {
     font-size: 14px;
-    font-family: Titillium Web, sans-serif;
+    /*font-family: Titillium Web, sans-serif;*/
 }
 
 .register-form input[type="email"] {
@@ -549,6 +579,25 @@ footer {
     border-radius: 3px;
     width: 250px;
     font-weight: bold;
+}
+
+.benefits-title {
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.benefits-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 23px;
+}
+
+.benefits-item .bullet {
+    color: #FFD738;
 }
 
 .small-card-icon {
@@ -604,7 +653,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
   background-color: #fff;
-  font-family: 'montserrat';
+  /*font-family: 'montserrat';*/
 }
 
 .content-wrapper {

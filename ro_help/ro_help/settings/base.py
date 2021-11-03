@@ -157,11 +157,7 @@ LOCALE_PATHS = (os.path.join(BASE_DIR, "../", "locale"),)
 
 LANGUAGE_CODE = "ro"
 
-LANGUAGES = (
-    ("en", "English"),
-    ("ro", "Romanian"),
-    ("ru", "Russian")
-)
+LANGUAGES = (("en", "English"), ("ro", "Romanian"), ("ru", "Russian"))
 
 TIME_ZONE = "UTC"
 
@@ -211,13 +207,12 @@ STATICFILES_FINDERS = [
 ]
 
 # SMTP
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-
 EMAIL_CONFIG = env.email_url("EMAIL_URL", default="smtp://user:password@localhost:25")
 vars().update(EMAIL_CONFIG)
 
-DEFAULT_FROM_EMAIL = "noreply@rohelp.ro"
+EMAIL_BACKEND = env.str("EMAIL_BACKEND", "django.core.mail.backends.smtp.EmailBackend")
 
+DEFAULT_FROM_EMAIL = env.str("DEFAULT_FROM_EMAIL", "noreply@rohelp.ro")
 
 MATERIAL_ADMIN_SITE = {
     "HEADER": _("COVID-19 RO HELP"),  # Admin site header
