@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 10:19+0000\n"
+"POT-Creation-Date: 2021-10-27 06:08+0000\n"
 "PO-Revision-Date: 2020-05-20 12:15+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -109,7 +109,9 @@ msgstr "Pentru a accepta transfer în bani, acest câmpt este obligatoriu"
 
 #: hub/forms.py:54
 msgid "I accept <a href='/en/terms' target='_blank'>terms</a>."
-msgstr "Sunt de acord ca datele introduse să fie procesate de către site-ul ajut.md. Află despre <a href='/ro/terms' target='_blank'>cum se procesează datele</a>."
+msgstr ""
+"Sunt de acord ca datele introduse să fie procesate de către site-ul ajut.md. "
+"Află despre <a href='/ro/terms' target='_blank'>cum se procesează datele</a>."
 
 #: hub/forms.py:92
 msgid "CSV file"
@@ -1380,9 +1382,19 @@ msgstr "Pot să ajut eu!"
 msgid "No results matching query"
 msgstr "Nu există nici un rezultat"
 
+#: hub/templates/ngo/register_request.html:27
+#, fuzzy
+#| msgid "Register"
+msgid "Register NGO"
+msgstr "Înregistrare ONG"
+
 #: hub/templates/ngo/register_request.html:42
 msgid "Fields with asterisk are required."
 msgstr "Câmpurile cu asterisc sunt obligatorii"
+
+#: hub/templates/ngo/register_request.html:45
+msgid "SEND"
+msgstr "TRIMITE"
 
 #: hub/templates/ngo/register_request.html:53
 msgid "Benefits"

@@ -24,7 +24,7 @@
                 </div>
                 </article>
             {% else %}
-                <h1>Înregistrare ONG</h1>
+                <h1>{% trans "Register NGO" %}</h1>
 
                 <form method="post" enctype="multipart/form-data" >
                     {% csrf_token %}
@@ -42,7 +42,7 @@
                       <span class="asterisk">*</span> {% trans "Fields with asterisk are required." %}
                     </div>
 
-                    <input class="button is-success" type="submit" value="TRIMITE">
+                    <input class="button is-success" type="submit" value="{% trans "SEND" %}">
                 </form>
             {% endif %}
         </div>
